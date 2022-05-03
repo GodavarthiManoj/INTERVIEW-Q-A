@@ -1,0 +1,128 @@
+1.What is difference in Overloading and Over riding?
+ANS.    ->If two or more methods in a class having same names and having different paramatersit is called overloading.
+	->if the methods in a class having same name and paramters (same in the superclass and the child class)it is called overriding.
+
+2.If both the functions are statis can we over ride?
+ANS. -> Static methods can not be overridden in the exact sense of the word, but they can hide parent static methods.
+
+3. Diffference bew Final , Finally and Finalize?
+
+ANS. ->FINAL:
+	1. Final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
+	2. Final method is executed only when we call it.
+	3. Final keyword is used with the classes, methods and variables.
+     ->Finally:
+	1. Finally is the block in Java Exception Handling to execute the important code whether the exception occurs or not.
+	2. Finally block is executed as soon as the try-catch block is executed.
+	3. It's execution is not dependant on the exception.
+	4. Finally block is always related to the try and catch block in exception handling
+     ->Finalize:
+	1. Finalize is the method in Java which is used to perform clean up processing just before object is garbage collected.
+	2. Finalize method is executed just before the object is destroyed.
+	3. Finalize method is used with the objects.
+4.What are maker Interfaces?
+
+ANS. It is an empty interface (no field or methods).
+	 Examples :
+		Serializable, Cloneable and Remote interface.
+5.What is Singleton class?
+ANS. A singleton class is a class that can have only one object (an instance of the class) at a time.
+	The primary purpose of a Single class is to restrict the limit of the number of object creation to only one. 
+		EX: socket or database connections.
+6.What is the underlying Data structure for Arraylist and Linkedlist?
+ANS. The backing data structure of ArrayList is an array of Object class.
+	The backing data structure of LinkedList is a Doubly-linked list 
+7. What is hash collitition?
+ANS. Hash collision is a random match in hash values that occurs when a hashing algorithm produces the same hash value for two distinct pieces of data.
+8. What are lambda Expressions?
+ANS. A lambda expression is a short block of code which takes in parameters and returns a value. 
+	syntax=>    parameter -> expression
+9.Whats is functional interface?
+ANS.  A functional interface is an interface that contains only one abstract method. They can have only one functionality to exhibit.
+
+10.What are optional classes in Java 8?
+ANS. EMPTY()
+     OF(VALUE)
+     OFNULLABLE(VALUE)
+11.Whats is factory design pattern and Adapter and difference bew them?
+ANS.  .->  Factory method is a creational design pattern, i.e., related to object creation.  In Factory pattern, we create objects without exposing the creation logic to the client and the client uses the same common interface to create a new type of object. 	
+	->  Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
+12.What are Solid principles?
+ANS.    Single Responsibility Principle (SRP)
+	Open/Closed Principle
+	Liskov’s Substitution Principle (LSP)
+	Interface Segregation Principle (ISP)
+	Dependency Inversion Principle (DIP)
+13. What does @component and @scan do in Sprinboot annaotation
+ANS. @Component is an annotation that allows Spring to automatically detect our custom beans.
+14.Whats is the Diference bew JPA , Hibernate and ORM?
+ANS. JPA :->
+		1.JPA is described in javax.persistence package.
+		2.It describes the handling of relational data in Java applications. 
+		3.It is not an implementation. It is only a Java specification.
+		4.As an object-oriented query language, it uses Java Persistence Query Language (JPQL) to execute database operations.
+	HIBERNATE:->
+		1.  Hibernate is described in org.hibernate package.
+		2. Hibernate is an Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system.
+		3. Hibernate is an implementation of JPA. Hence, the common standard which is given by JPA is followed by Hibernate.
+		4. As an object-oriented query language, it uses Hibernate Query Language (HQL) to execute database operations.
+	ORM:->
+		1.Object-Relational Mapping (ORM) is the process of converting Java objects to database tables
+		2.this allows us to interact with a relational database without any SQL
+     
+ 15.What is indexing in Database
+ANS. Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. It is a data structure technique which is used to quickly locate and access the data in a database. Indexes are created using a few database columns.
+16.What are 4 types of Drivers in Jdbc?
+ANS. 	 1: JDBC-ODBC bridge.
+	 2: partial Java driver.
+	 3: pure Java driver for database middleware.
+	 4: pure Java driver for direct-to-database.
+17.What is difrence bew @component and @bean and @service
+ANS.    @Component – generic and can be used across application.
+	@Service – annotate classes at service layer level.
+	@Repository – annotate classes at persistence layer, which will act as database repository.
+
+18. What is difference bew SOAP and restful services techinically?
+ANS.    SOAP uses only XML for exchanging information in its message format 
+	REST is not restricted to XML and its the choice of implementer which Media-Type to use like XML, JSON, Plain-text. 
+	REST can use SOAP protocol but SOAP cannot use REST.
+19 . Difference in POST and PUT?
+ANS.    POST creates a new resource at the specified URI. 
+	PUT either creates or replaces the resource at the specified URI.
+20.IS react uni directional or Bi directional?
+ANS. IT is uni directional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
